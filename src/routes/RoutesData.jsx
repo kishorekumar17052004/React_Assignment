@@ -2,6 +2,8 @@
 import Assignment1 from "../pages/Assignment1"
 import Assignment2 from "../pages/Assignment2"
 import Home from "../pages/Home"
+import Assignment3 from "../pages/Assignment3"
+import Assignment6 from "../pages/Assignment6"
 import Assignment5 from "../pages/Assignment5"
 import StudentProfile from "../assignment/Assignment1/StudentProfile"
 import EmployeeCard from "../assignment/Assignment1/EmployeeCard"
@@ -23,6 +25,22 @@ import Assignment5Task3 from "../assignment/Assignment5/Task3"
 import Assignment5Task4 from "../assignment/Assignment5/Task4"
 import Assignment5Task5 from "../assignment/Assignment5/Task5"
 import Assignment5Task6 from "../assignment/Assignment5/Task6"
+//Assignment 6
+import Assignment6Task1 from "../assignment/Assignment6/Task1"
+import Assignment6Task2 from "../assignment/Assignment6/Task2"
+import Assignment6Task3 from "../assignment/Assignment6/Task3"
+import Assignment6Task4 from "../assignment/Assignment6/Task4"
+import Assignment6Task5 from "../assignment/Assignment6/Task5"
+import Assignment6Task6 from "../assignment/Assignment6/Task6"
+import Assignment6Task7 from "../assignment/Assignment6/Task7"
+import Assignment6Task8 from "../assignment/Assignment6/Task8"
+import Assignment6Task9 from "../assignment/Assignment6/Task9"
+import Assignment6Task10 from "../assignment/Assignment6/Task10"
+import Assignment6Task11 from "../assignment/Assignment6/Task11"
+import Assignment6Task12 from "../assignment/Assignment6/Task12"
+import Assignment6Task13 from "../assignment/Assignment6/Task13"
+import Assignment6Task14 from "../assignment/Assignment6/Task14"
+import Assignment6Task15 from "../assignment/Assignment6/Task15"
 
 
 export const routes = [
@@ -39,12 +57,20 @@ export const routes = [
     element: <Assignment2 />,
   },
   {
+    path: "/assignment3",
+    element: <Assignment3 />,
+  },
+  {
     path: "/assignment4",
     element: <Assignment4 />,
   },
   {
     path: "/assignment5",
     element: <Assignment5 />,
+  },
+  {
+    path: "/assignment6",
+    element: <Assignment6 />,
   },
 
   // Assignment 1 Tasks
@@ -117,6 +143,72 @@ export const routes = [
     path: "/assignment5/task6/*",
     element: <Assignment5Task6 />,
   },
+    // Assignment 6
+    {
+     path:"/assignment6/task1/*",
+     element:<Assignment6Task1/>
+
+    },
+      {
+     path:"/assignment6/task2/*",
+     element:<Assignment6Task2/>
+
+    },
+       {
+     path:"/assignment6/task3/*",
+     element:<Assignment6Task3/>
+
+    },   {
+     path:"/assignment6/task4/*",
+     element:<Assignment6Task4/>
+
+    },   {
+     path:"/assignment6/task5/*",
+     element:<Assignment6Task5/>
+
+    },   {
+     path:"/assignment6/task6/*",
+     element:<Assignment6Task6/>
+
+    },   {
+     path:"/assignment6/task7/*",
+     element:<Assignment6Task7/>
+
+    },   {
+     path:"/assignment6/task8/*",
+     element:<Assignment6Task8/>
+
+    },   {
+     path:"/assignment6/task9/*",
+     element:<Assignment6Task9/>
+
+    },   {
+     path:"/assignment6/task10/*",
+     element:<Assignment6Task10/>
+
+    },   {
+     path:"/assignment6/task11/*",
+     element:<Assignment6Task11/>
+
+    },   {
+     path:"/assignment6/task12/*",
+     element:<Assignment6Task12/>
+
+    },   {
+     path:"/assignment6/task13/*",
+     element:<Assignment6Task13/>
+
+    },   {
+     path:"/assignment6/task14/*",
+     element:<Assignment6Task14/>
+
+    },   {
+     path:"/assignment6/task15/*",
+     element:<Assignment6Task15/>
+
+    }, 
+    
+
 
 
   
