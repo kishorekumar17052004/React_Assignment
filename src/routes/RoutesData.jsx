@@ -5,6 +5,7 @@ import Home from "../pages/Home"
 import Assignment3 from "../pages/Assignment3"
 import Assignment6 from "../pages/Assignment6"
 import Assignment5 from "../pages/Assignment5"
+import Assignment7 from "../pages/Assignment7"
 import StudentProfile from "../assignment/Assignment1/StudentProfile"
 import EmployeeCard from "../assignment/Assignment1/EmployeeCard"
 import ProductCard from "../assignment/Assignment1/ProductCard"
@@ -73,6 +74,10 @@ export const routes = [
   {
     path: "/assignment6",
     element: <Assignment6 />,
+  },
+  {
+    path: "/assignment7",
+    element: <Assignment7 />,
   },
 
   // Assignment 1 Tasks
@@ -213,7 +218,7 @@ export const routes = [
      path:"/assignment7/task1/*",
      element:<Assignment7Task1/>
 
-    }, 
+    }
     
 
 
