@@ -30,24 +30,35 @@ const Home = () => {
         >
           Assignment 3
         </button>
+
          <button
           onClick={() => navigate("/assignment4")}
           className="bg-blue-600 text-white p-8 rounded text-xl"
         >
           Assignment 4
         </button>
+
          <button
           onClick={() => navigate("/assignment5")}
           className="bg-blue-600 text-white p-8 rounded text-xl"
         >
           Assignment 5
         </button>
+
          <button
           onClick={() => navigate("/assignment6")}
           className="bg-blue-600 text-white p-8 rounded text-xl"
         >
           Assignment 6
         </button>
+
+         <button
+          onClick={() => navigate("/assignment7")}
+          className="bg-blue-600 text-white p-8 rounded text-xl"
+        >
+          Assignment 7
+        </button>
+
       </div>
     </div>
   );
