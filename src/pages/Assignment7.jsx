@@ -1,20 +1,19 @@
 import { useNavigate } from "react-router-dom";
 
-
 const Assignment7 = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
+
   return (
-   <>
-   <div className="p-8">
+    <div className="p-8">
       <button
         onClick={() => navigate("/")}
         className="text-blue-500 mb-6"
       >
-        ← Back to Assignments
+        Back to Assignments
       </button>
 
       <h1 className="text-4xl font-bold mb-10">
-        Assignment 2 - Tasks
+        Assignment 7 - Tasks
       </h1>
 
       <div className="grid md:grid-cols-3 gap-6">
@@ -24,15 +23,9 @@ const Assignment7 = () => {
         >
           Array And Array of Object Update Method
         </button>
-
-      
       </div>
     </div>
-   
-   
-   
-   </>
-  )
-}
+  );
+};
 
-export default Assignment7
+export default Assignment7;

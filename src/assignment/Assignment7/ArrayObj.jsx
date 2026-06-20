@@ -26,18 +26,22 @@ const ArrayObj = () => {
   };
 
   return (
-    <div>
-      <h2>Array of Object State</h2>
+    <div className="border p-5 rounded">
+      <h2 className="text-2xl font-semibold mb-3">Array of Object State</h2>
 
-      {employees.map((emp) => (
-        <div key={emp.id}>
-          <p>Name: {emp.name}</p>
-          <p>Department: {emp.department}</p>
-          <hr />
-        </div>
-      ))}
+      <div className="space-y-3 mb-4">
+        {employees.map((emp) => (
+          <div key={emp.id} className="bg-gray-100 p-3 rounded">
+            <p>Name: {emp.name}</p>
+            <p>Department: {emp.department}</p>
+          </div>
+        ))}
+      </div>
 
-      <button onClick={updateEmployee}>
+      <button
+        onClick={updateEmployee}
+        className="bg-blue-600 text-white px-4 py-2 rounded"
+      >
         Update Employee
       </button>
     </div>
