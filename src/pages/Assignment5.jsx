@@ -6,7 +6,7 @@ const Assignment5 = () => {
   return (
     <div className="p-8">
       <button onClick={() => navigate("/")} className="text-blue-500 mb-6">
-        Back to Assignments
+       ← Back to Assignments
       </button>
 
       <h1 className="text-4xl font-bold mb-10">Assignment 5 - Tasks</h1>
