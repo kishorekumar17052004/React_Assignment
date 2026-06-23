@@ -64,6 +64,12 @@ const Home = () => {
         >
           Assignment 8
         </button>
+         <button
+          onClick={() => navigate("/assignment9")}
+          className="bg-blue-600 text-white p-8 rounded text-xl"
+        >
+          Assignment 9
+        </button>
 
       </div>
     </div>
