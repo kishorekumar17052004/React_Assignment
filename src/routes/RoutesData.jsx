@@ -51,6 +51,10 @@ import Assignment8 from "../pages/Assignment8"
 import Assignment9 from "../pages/Assignment9"
 import Assignment9task1 from "../assignment/Assignment9/Task1"
 import Assignment9task2 from "../assignment/Assignment9/Task2"
+// Assignment 10
+import Assignment10 from "../pages/Assignment10"
+import Assignment10studentform from "../assignment/Assignment10.jsx/StudentForm"
+
 
 
 export const routes = [
@@ -245,6 +249,14 @@ export const routes = [
 {
   path: "/assignment9/task2/*",
   element: <Assignment9task2 />,
+},
+{
+  path: "/assignment10",
+  element: <Assignment10 />,
+},
+{
+  path: "/assignment10/studentform/*",
+  element: <Assignment10studentform />,
 },
 
 
