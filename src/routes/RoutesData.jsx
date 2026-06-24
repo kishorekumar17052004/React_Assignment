@@ -54,6 +54,13 @@ import Assignment9task2 from "../assignment/Assignment9/Task2"
 // Assignment 10
 import Assignment10 from "../pages/Assignment10"
 import Assignment10studentform from "../assignment/Assignment10.jsx/StudentForm"
+// Assignment 11
+import Assignment11 from "../pages/Assignment11"
+import Assignment11Student from "../assignment/Assignment11/Student"
+import Assignment11Employee from "../assignment/Assignment11/Employee"
+import Assignment11Product from "../assignment/Assignment11/Product"
+import Assignment11UserProfile from "../assignment/Assignment11/UserProfile"
+import Assignment11School from "../assignment/Assignment11/School"
 
 
 
@@ -257,6 +264,30 @@ export const routes = [
 {
   path: "/assignment10/studentform/*",
   element: <Assignment10studentform />,
+},
+{
+  path: "/assignment11",
+  element: <Assignment11 />,
+},
+{
+  path: "/assignment11/studentform/*",
+  element: <Assignment11Student />,
+},
+{
+  path: "/assignment11/employeeform/*",
+  element: <Assignment11Employee />,
+},
+{
+  path: "/assignment11/productform/*",
+  element: <Assignment11Product />,
+},
+{
+  path: "/assignment11/userprofileform/*",
+  element: <Assignment11UserProfile />,
+},
+{
+  path: "/assignment11/schoolform/*",
+  element: <Assignment11School />,
 },
 
 
