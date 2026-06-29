@@ -53,7 +53,7 @@ import Assignment9task1 from "../assignment/Assignment9/Task1"
 import Assignment9task2 from "../assignment/Assignment9/Task2"
 // Assignment 10
 import Assignment10 from "../pages/Assignment10"
-import Assignment10studentform from "../assignment/Assignment10.jsx/StudentForm"
+import Assignment10studentform from "../assignment/Assignment10/StudentForm"
 // Assignment 11
 import Assignment11 from "../pages/Assignment11"
 import Assignment11Student from "../assignment/Assignment11/Student"
@@ -64,6 +64,14 @@ import Assignment11School from "../assignment/Assignment11/School"
 // Assignment 12
 import Assignment12 from "../pages/Assignment12"
 import Assignment12Task from "../assignment/Assignment12/Task"
+// Assignment 13
+import Assignment13 from "../pages/Assignment13"
+import StudentRegister from "../assignment/Assignment13/StudentRegister"
+import EmployeeManagement from "../assignment/Assignment13/EmployeeManagement"
+import ProductManagement from "../assignment/Assignment13/ProductManagement"
+import UserRegistration from "../assignment/Assignment13/UserRegistration"
+import ContactBook from "../assignment/Assignment13/ContactBook"
+import CourseEnrollment from "../assignment/Assignment13/CourseEnrollment"
 
 
 
@@ -299,6 +307,34 @@ export const routes = [
 {
   path: "/assignment12/task/*",
   element: <Assignment12Task />,
+},
+{
+  path: "/assignment13",
+  element: <Assignment13 />,
+},
+{
+  path: "/assignment13/studentregister/*",
+  element: <StudentRegister />,
+},
+{
+  path: "/assignment13/employeemanagement/*",
+  element: <EmployeeManagement />,
+},
+{
+  path: "/assignment13/productmanagement/*",
+  element: <ProductManagement />,
+},
+{
+  path: "/assignment13/userregistration/*",
+  element: <UserRegistration />,
+},
+{
+  path: "/assignment13/contactbook/*",
+  element: <ContactBook />,
+},
+{
+  path: "/assignment13/courseenrollment/*",
+  element: <CourseEnrollment />,
 },
 
 
