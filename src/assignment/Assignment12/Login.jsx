@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom"
 const Login = () => {
     const navigate = useNavigate();
     const getdata = JSON.parse(localStorage.getItem("userdata"))
+    
     const [loginData , setLoginData ]=useState({loginEmail:"",loginPassword:""})
      const handlelogin = (e)=>{
          const {name ,value}=e.target;
