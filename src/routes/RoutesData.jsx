@@ -72,6 +72,14 @@ import ProductManagement from "../assignment/Assignment13/ProductManagement"
 import UserRegistration from "../assignment/Assignment13/UserRegistration"
 import ContactBook from "../assignment/Assignment13/ContactBook"
 import CourseEnrollment from "../assignment/Assignment13/CourseEnrollment"
+// Assignment 14
+import Assignment14 from "../pages/Assignment14"
+import Assignment14Task1 from "../assignment/Assignment14/Task1"
+import Assignment14Task2 from "../assignment/Assignment14/Task2"
+import Assignment14Task3 from "../assignment/Assignment14/Task3"
+import Assignment14Task4 from "../assignment/Assignment14/Task4"
+import Assignment14Task5 from "../assignment/Assignment14/Task5"
+import Assignment14Task6 from "../assignment/Assignment14/Task6"
 
 
 
@@ -335,6 +343,34 @@ export const routes = [
 {
   path: "/assignment13/courseenrollment/*",
   element: <CourseEnrollment />,
+},
+{
+  path: "/assignment14",
+  element: <Assignment14 />,
+},
+{
+  path: "/assignment14/task1/*",
+  element: <Assignment14Task1 />,
+},
+{
+  path: "/assignment14/task2/*",
+  element: <Assignment14Task2 />,
+},
+{
+  path: "/assignment14/task3/*",
+  element: <Assignment14Task3 />,
+},
+{
+  path: "/assignment14/task4/*",
+  element: <Assignment14Task4 />,
+},
+{
+  path: "/assignment14/task5/*",
+  element: <Assignment14Task5 />,
+},
+{
+  path: "/assignment14/task6/*",
+  element: <Assignment14Task6 />,
 },
 
 
