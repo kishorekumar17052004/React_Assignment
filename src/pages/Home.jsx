@@ -106,6 +106,12 @@ const Home = () => {
         >
           Assignment 15
         </button>
+          <button
+          onClick={() => navigate("/assignment16")}
+          className="bg-teal-600 text-white p-8 rounded text-xl transition duration-300 hover:scale-105 hover:bg-teal-700"
+        >
+          Assignment 16
+        </button>
 
 
       </div>
