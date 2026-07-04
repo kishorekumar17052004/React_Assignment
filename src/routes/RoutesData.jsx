@@ -88,6 +88,8 @@ import Assignment15Task3 from "../assignment/Assignment15/Task3"
 import Assignment15Task4 from "../assignment/Assignment15/Task4"
 // Assignment 16
 import Assignment16 from "../pages/Assignment16"
+// Assignment 17
+import Assignment17 from "../pages/Assignment17"
 
 
 
@@ -403,6 +405,10 @@ export const routes = [
 {
   path: "/assignment16",
   element: <Assignment16 />,
+},
+{
+  path: "/assignment17",
+  element: <Assignment17 />,
 },
 
 
