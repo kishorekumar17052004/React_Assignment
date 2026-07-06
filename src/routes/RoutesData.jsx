@@ -90,6 +90,12 @@ import Assignment15Task4 from "../assignment/Assignment15/Task4"
 import Assignment16 from "../pages/Assignment16"
 // Assignment 17
 import Assignment17 from "../pages/Assignment17"
+// Assignment 18
+import Assignment18 from "../pages/Assignment18"
+import Assignment18Task1 from "../assignment/Assignment18/Task1"
+import Assignment18Task2 from "../assignment/Assignment18/Task2"
+import Assignment18Task3 from "../assignment/Assignment18/Task3"
+import Assignment18Task4 from "../assignment/Assignment18/Task4"
 
 
 
@@ -409,6 +415,26 @@ export const routes = [
 {
   path: "/assignment17",
   element: <Assignment17 />,
+},
+{
+  path: "/assignment18",
+  element: <Assignment18 />,
+},
+{
+  path: "/assignment18/task1/*",
+  element: <Assignment18Task1 />,
+},
+{
+  path: "/assignment18/task2/*",
+  element: <Assignment18Task2 />,
+},
+{
+  path: "/assignment18/task3/*",
+  element: <Assignment18Task3 />,
+},
+{
+  path: "/assignment18/task4/*",
+  element: <Assignment18Task4 />,
 },
 
 
