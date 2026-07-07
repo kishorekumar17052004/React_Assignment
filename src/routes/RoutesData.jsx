@@ -96,6 +96,14 @@ import Assignment18Task1 from "../assignment/Assignment18/Task1"
 import Assignment18Task2 from "../assignment/Assignment18/Task2"
 import Assignment18Task3 from "../assignment/Assignment18/Task3"
 import Assignment18Task4 from "../assignment/Assignment18/Task4"
+// Assignment 19
+import Assignment19 from "../pages/Assignment19"
+import Assignment19Task1 from "../assignment/Assignment19/UserProvider"
+import Assignment19Task2 from "../assignment/Assignment19/ProductCard"
+import Assignment19Task3 from "../assignment/Assignment19/Task3"
+import Assignment19Task4 from "../assignment/Assignment19/Student"
+import Assignment19Task5 from "../assignment/Assignment19/Task5"
+import { StudentProvider } from "../assignment/Assignment19/context/StudentContext"
 
 
 
@@ -435,6 +443,34 @@ export const routes = [
 {
   path: "/assignment18/task4/*",
   element: <Assignment18Task4 />,
+},
+{
+  path: "/assignment19",
+  element: <Assignment19 />,
+},
+{
+  path: "/assignment19/task1/*",
+  element: <Assignment19Task1 />,
+},
+{
+  path: "/assignment19/task2/*",
+  element: <Assignment19Task2 />,
+},
+{
+  path: "/assignment19/task3/*",
+  element: <Assignment19Task3 />,
+},
+{
+  path: "/assignment19/task4/*",
+  element: (
+    <StudentProvider>
+      <Assignment19Task4 />
+    </StudentProvider>
+  ),
+},
+{
+  path: "/assignment19/task5/*",
+  element: <Assignment19Task5 />,
 },
 
 
