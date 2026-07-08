@@ -130,6 +130,12 @@ const Home = () => {
         >
           Assignment 19
         </button>
+          <button
+          onClick={() => navigate("/assignment20")}
+          className="bg-teal-600 text-white p-8 rounded text-xl transition duration-300 hover:scale-105 hover:bg-teal-700"
+        >
+          Assignment 20
+        </button>
       </div>
     </div>
   );

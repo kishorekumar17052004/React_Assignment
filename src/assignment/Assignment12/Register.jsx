@@ -29,6 +29,7 @@ const Register = () => {
      const handlesubmit = (e)=>{
               e.preventDefault()
            setStoreData((prev)=>[...prev,registerData])
+          
            setRegisterData({userName:"",userEmail:"",userPassword:""})
            navigate("login")
      }

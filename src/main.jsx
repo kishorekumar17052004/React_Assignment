@@ -9,6 +9,7 @@ import { UserProvider } from './assignment/Assignment19/context/UserContext.jsx'
 import { ProductProvider1 } from './assignment/Assignment19/context/ProductContext.jsx'
 import { StudentProvider } from './assignment/Assignment19/context/StudentContext.jsx'
 import { DashboardProvider } from './assignment/Assignment19/context/DashboardContext.jsx'
+import { AuthProvider } from './assignment/Assignment20/context/AuthContext.jsx'
 
 createRoot(document.getElementById('root')).render(
  
@@ -19,7 +20,9 @@ createRoot(document.getElementById('root')).render(
      <ProductProvider1>
         <StudentProvider>
             <DashboardProvider>
+              <AuthProvider>
     <App />
+              </AuthProvider>
     </DashboardProvider>
     </StudentProvider>
     </ProductProvider1>
