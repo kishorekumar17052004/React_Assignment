@@ -107,6 +107,12 @@ import { StudentProvider } from "../assignment/Assignment19/context/StudentConte
 // Assignment 20
 import Assignment20 from "../pages/Assignment20"
 import Assignment20Task from "../assignment/Assignment20/Task"
+// Assignment 21
+import Assignment21 from "../pages/Assignment21"
+import Assignment21Task1 from "../assignment/Assignment21/Task1"
+import Assignment21Task2 from "../assignment/Assignment21/Task2"
+import Assignment21Task3 from "../assignment/Assignment21/Task3"
+import Assignment21Task4 from "../assignment/Assignment21/Task4"
 
 
 
@@ -482,6 +488,26 @@ export const routes = [
 {
   path: "/assignment20/task/*",
   element: <Assignment20Task />,
+},
+{
+  path: "/assignment21",
+  element: <Assignment21 />,
+},
+{
+  path: "/assignment21/task1",
+  element: <Assignment21Task1 />,
+},
+{
+  path: "/assignment21/task2",
+  element: <Assignment21Task2 />,
+},
+{
+  path: "/assignment21/task3",
+  element: <Assignment21Task3 />,
+},
+{
+  path: "/assignment21/task4",
+  element: <Assignment21Task4 />,
 },
 
 
